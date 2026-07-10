@@ -16,11 +16,7 @@ const COLORS = {
   border: "#30363d",
 };
 
-const INFO_X = 455;
-const ART_X = 18;
-const ART_TOP = 30;
-const ART_BOX_WIDTH = 410;
-const ART_BOX_HEIGHT = 470;
+const INFO_X = 36;
 
 async function github(pathname, options = {}) {
   const headers = {
@@ -269,33 +265,14 @@ function section(title, y) {
   });
 }
 
-function buildSvg(ascii, stats) {
-  const asciiLines = ascii.replace(/\r\n/g, "\n").trimEnd().split("\n");
-  const maxAsciiWidth = Math.max(...asciiLines.map((line) => line.length), 1);
-  const artSize = Math.min(
-    12,
-    ART_BOX_WIDTH / (maxAsciiWidth * 0.62),
-    ART_BOX_HEIGHT / (asciiLines.length * 1.2),
-  );
-  const artLineHeight = artSize * 1.2;
-  const artStartY =
-    ART_TOP + Math.max(0, (ART_BOX_HEIGHT - asciiLines.length * artLineHeight) / 2);
-  const art = `<text x="${ART_X}" y="${artStartY.toFixed(2)}" font-size="${artSize.toFixed(2)}" fill="${COLORS.fg}">
-${asciiLines
-  .map((line, index) => {
-    const dy = index === 0 ? 0 : artLineHeight.toFixed(2);
-    return `    <tspan x="${ART_X}" dy="${dy}">${escapeXml(line)}</tspan>`;
-  })
-  .join("\n")}
-</text>`;
-
+function buildSvg(stats) {
   const rows = [
     textLine({
       x: INFO_X,
       y: 30,
       parts: [
         { text: `${USERNAME}@github `, color: COLORS.fg },
-        { text: "-".repeat(44), color: COLORS.fg },
+        { text: "-".repeat(92), color: COLORS.fg },
       ],
     }),
     line("OS:", "Windows, Android, Linux", 54),
@@ -362,7 +339,6 @@ ${asciiLines
   return `<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="530" viewBox="0 0 1000 530" role="img" aria-label="${USERNAME} GitHub profile">
   <rect width="1000" height="530" rx="12" fill="${COLORS.bg}" stroke="${COLORS.border}" />
   <g font-family="Cascadia Mono, Consolas, Menlo, Monaco, monospace" xml:space="preserve">
-${art}
 ${rows}
   </g>
 </svg>
@@ -370,12 +346,9 @@ ${rows}
 }
 
 async function main() {
-  const [ascii, stats] = await Promise.all([
-    fs.readFile(path.join(ROOT, "ascii-art.txt"), "utf8"),
-    getStats(),
-  ]);
+  const stats = await getStats();
 
-  await fs.writeFile(path.join(ROOT, "profile.svg"), buildSvg(ascii, stats));
+  await fs.writeFile(path.join(ROOT, "profile.svg"), buildSvg(stats));
   await fs.writeFile(
     path.join(ROOT, "README.md"),
     `<p align="center">
