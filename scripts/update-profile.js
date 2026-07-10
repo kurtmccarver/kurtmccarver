@@ -16,6 +16,8 @@ const COLORS = {
   border: "#30363d",
 };
 
+const INFO_X = 455;
+
 async function github(pathname, options = {}) {
   const headers = {
     Accept: "application/vnd.github+json",
@@ -236,7 +238,7 @@ function textLine({ x, y, parts, size = 15 }) {
 
 function line(label, value, y) {
   return textLine({
-    x: 430,
+    x: INFO_X,
     y,
     parts: [
       { text: ". ", color: COLORS.muted },
@@ -254,7 +256,7 @@ function dotted(label, value, target = 56) {
 
 function section(title, y) {
   return textLine({
-    x: 430,
+    x: INFO_X,
     y,
     parts: [
       { text: `- ${title} `, color: COLORS.fg },
@@ -269,8 +271,8 @@ function buildSvg(ascii, stats) {
     .map((line, index) =>
       textLine({
         x: 18,
-        y: 28 + index * 9,
-        size: 7,
+        y: 48 + index * 15,
+        size: 12,
         parts: [{ text: line, color: COLORS.fg }],
       }),
     )
@@ -278,7 +280,7 @@ function buildSvg(ascii, stats) {
 
   const rows = [
     textLine({
-      x: 430,
+      x: INFO_X,
       y: 30,
       parts: [
         { text: `${USERNAME}@github `, color: COLORS.fg },
@@ -300,7 +302,7 @@ function buildSvg(ascii, stats) {
     line("GitHub:", USERNAME, 386),
     section("GitHub Stats", 430),
     textLine({
-      x: 430,
+      x: INFO_X,
       y: 454,
       parts: [
         { text: ". ", color: COLORS.muted },
@@ -316,7 +318,7 @@ function buildSvg(ascii, stats) {
       ],
     }),
     textLine({
-      x: 430,
+      x: INFO_X,
       y: 476,
       parts: [
         { text: ". ", color: COLORS.muted },
@@ -330,7 +332,7 @@ function buildSvg(ascii, stats) {
       ],
     }),
     textLine({
-      x: 430,
+      x: INFO_X,
       y: 498,
       parts: [
         { text: ". ", color: COLORS.muted },
