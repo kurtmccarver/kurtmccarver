@@ -1,67 +1,36 @@
-<p align="center">
-  <img src="./ascii-art.png" alt="ASCII art portrait" width="720" />
-</p>
+<table>
+  <tr>
+    <td>
+      <img src="./ascii-art.png" alt="ASCII art" width="380" />
+    </td>
+    <td>
+<pre>
+andrew@grant ------------------------------------------------
+. OS: ........................ Windows 10, Android 14, Linux
+. Uptime: .................... 22 years, 5 months, 29 days
+. Host: ...................... TTM Technologies, Inc
+. Kernel: ...... CAM (Computer Aided Manufacturing) Operator
+. IDE: ....................... IDEA 2023.3.2, VSCode 1.96.0
 
-<h1 align="center">Kurt Oswill McCarver</h1>
+. Languages.Programming: ..... Java, Python, JavaScript, C++
+. Languages.Computer: ........ HTML, CSS, JSON, LaTeX, YAML
+. Languages.Real: ............ English, Spanish
 
-<p align="center">
-  <strong>Architect of the Next Internet: UI/UX | Web Developer | Blockchain Enthusiast</strong>
-</p>
+. Hobbies.Software: .... Minecraft Modding, iOS Jailbreaking
+. Hobbies.Hardware: ............ Overclocking, Undervolting
 
-<p align="center">
-  Web developer focused on building functional, real-world apps. Passionate about clean design,
-  user-first interfaces, and Web3 tools with practical value.
-</p>
+- Contact ---------------------------------------------------
+. Email.Personal: ..................... agrantnmac@gmail.com
+. Email.Personal: ..................... andrew@grant.software
+. Email.Work: ................... Andrew.Grant@ttmtech.com
+. LinkedIn: ...................................... Andrew6rant
+. Discord: ....................................... andrew6rant
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/kurt-oswill/">LinkedIn</a>
-  &nbsp;|&nbsp;
-  <a href="https://github.com/kurtmccarver">GitHub</a>
-</p>
-
-## Live GitHub Stats
-
-<p align="center">
-  <img
-    height="165"
-    src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=kurtmccarver&theme=github_dark"
-    alt="Kurt McCarver's live GitHub stats"
-  />
-  <img
-    height="165"
-    src="https://github-readme-streak-stats.herokuapp.com?user=kurtmccarver&theme=github-dark-blue&hide_border=true"
-    alt="Kurt McCarver's live GitHub streak"
-  />
-</p>
-
-<p align="center">
-  <img
-    src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=kurtmccarver&theme=github_dark"
-    alt="Kurt McCarver's live GitHub profile summary"
-  />
-</p>
-
-<p align="center">
-  <img
-    src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=kurtmccarver&theme=github_dark"
-    alt="Kurt McCarver's live repository languages"
-  />
-</p>
-
-## Languages and Tools
-
-<p align="center">
-  <img width="38" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" alt="TypeScript" />
-  <img width="38" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" alt="JavaScript" />
-  <img width="38" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" alt="HTML5" />
-  <img width="38" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" alt="CSS3" />
-  <img width="38" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" alt="Tailwind CSS" />
-  <img width="38" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" alt="React" />
-  <img width="38" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg" alt="Next.js" />
-  <img width="38" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" alt="Node.js" />
-  <img width="38" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" alt="Git" />
-  <img width="38" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/supabase/supabase-original.svg" alt="Supabase" />
-  <img width="38" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg" alt="Figma" />
-  <img width="38" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/aftereffects/aftereffects-original.svg" alt="After Effects" />
-  <img width="38" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/premierepro/premierepro-original.svg" alt="Premiere Pro" />
-</p>
+- GitHub Stats ----------------------------------------------
+. Repos: .... 95 {Contributed: 133} | Stars: ............. 342
+. Commits: ................... 2,116 | Followers: ........ 196
+. Lines of Code on GitHub: . 446,276 ( 523,178++,  76,902-- )
+</pre>
+    </td>
+  </tr>
+</table>
