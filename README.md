@@ -1,51 +1,67 @@
-```txt
-                                              kurtmccarver@github
-                                              --------------------
-            .--.                              OS: Windows, Android, Linux
-           |o_o |                             Host: Web Developer, UI/UX Builder
-           |:_/ |                             Kernel: Web3, Blockchain, Real-World Apps
-          //   \ \                            IDE: VS Code, Figma, Adobe Creative Suite
-         (|     | )                           
-        /'\_   _/`\                           Languages.Programming: TypeScript, JavaScript
-        \___)=(___/                           Languages.Web: HTML, CSS, Tailwind, React, Next.js
-                                              Languages.Backend: Node.js, Supabase
-                                              Tools.Design: Figma, After Effects, Premiere Pro
+<p align="center">
+  <img src="./ascii-art.png" alt="ASCII art portrait" width="720" />
+</p>
 
-                                              Contact
-                                              -------
-                                              LinkedIn: linkedin.com/in/kurt-oswill
-                                              GitHub: github.com/kurtmccarver
+<h1 align="center">Kurt Oswill McCarver</h1>
 
-                                              Focus
-                                              -----
-                                              Clean interfaces, practical apps, and
-                                              blockchain products that create real impact.
-```
+<p align="center">
+  <strong>Architect of the Next Internet: UI/UX | Web Developer | Blockchain Enthusiast</strong>
+</p>
 
-# Kurt Oswill McCarver
+<p align="center">
+  Web developer focused on building functional, real-world apps. Passionate about clean design,
+  user-first interfaces, and Web3 tools with practical value.
+</p>
 
-`Architect of the Next Internet: UI/UX | Web Developer | Blockchain Enthusiast`
+<p align="center">
+  <a href="https://www.linkedin.com/in/kurt-oswill/">LinkedIn</a>
+  &nbsp;|&nbsp;
+  <a href="https://github.com/kurtmccarver">GitHub</a>
+</p>
 
-Web developer focused on building functional, real-world apps. Passionate about clean design, user-first interfaces, and Web3 tools with practical value.
+## Live GitHub Stats
+
+<p align="center">
+  <img
+    height="165"
+    src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=kurtmccarver&theme=github_dark"
+    alt="Kurt McCarver's live GitHub stats"
+  />
+  <img
+    height="165"
+    src="https://github-readme-streak-stats.herokuapp.com?user=kurtmccarver&theme=github-dark-blue&hide_border=true"
+    alt="Kurt McCarver's live GitHub streak"
+  />
+</p>
+
+<p align="center">
+  <img
+    src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=kurtmccarver&theme=github_dark"
+    alt="Kurt McCarver's live GitHub profile summary"
+  />
+</p>
+
+<p align="center">
+  <img
+    src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=kurtmccarver&theme=github_dark"
+    alt="Kurt McCarver's live repository languages"
+  />
+</p>
 
 ## Languages and Tools
 
-<img align="left" width="30px" style="padding-right:30px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" />
-<img align="left" width="30px" style="padding-right:30px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" />
-<img align="left" width="30px" style="padding-right:30px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" />
-<img align="left" width="30px" style="padding-right:30px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" />
-<img align="left" width="30px" style="padding-right:30px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" />
-<img align="left" width="30px" style="padding-right:30px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" />
-<img align="left" width="30px" style="padding-right:30px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg" />
-<img align="left" width="30px" style="padding-right:30px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" />
-<img align="left" width="30px" style="padding-right:30px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" />
-<img align="left" width="30px" style="padding-right:30px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/supabase/supabase-original.svg" />
-<img align="left" width="30px" style="padding-right:30px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg" />
-<img align="left" width="30px" style="padding-right:30px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/aftereffects/aftereffects-original.svg" />
-<img align="left" width="30px" style="padding-right:30px;" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/premierepro/premierepro-original.svg" />
-
-<br clear="left" />
-
-## My Coding Journey
-
-I've always been fascinated by technology and passionate about building apps. Inspired by talented classmates in my first year of college, I joined AWS Spade as a student developer to sharpen my skills and grow my network. Hackathons and tech events helped me connect with industry leaders and strengthened my interest in blockchain and crypto. I later joined the Base Buildathon with the project NameThat.
+<p align="center">
+  <img width="38" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" alt="TypeScript" />
+  <img width="38" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" alt="JavaScript" />
+  <img width="38" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" alt="HTML5" />
+  <img width="38" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" alt="CSS3" />
+  <img width="38" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" alt="Tailwind CSS" />
+  <img width="38" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg" alt="React" />
+  <img width="38" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg" alt="Next.js" />
+  <img width="38" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg" alt="Node.js" />
+  <img width="38" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" alt="Git" />
+  <img width="38" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/supabase/supabase-original.svg" alt="Supabase" />
+  <img width="38" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg" alt="Figma" />
+  <img width="38" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/aftereffects/aftereffects-original.svg" alt="After Effects" />
+  <img width="38" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/premierepro/premierepro-original.svg" alt="Premiere Pro" />
+</p>
